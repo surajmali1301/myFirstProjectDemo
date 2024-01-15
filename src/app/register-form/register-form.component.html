@@ -1,0 +1,26 @@
+<div class="mb-3 row">
+  <label for="staticEmail" class="col-sm-2 col-form-label">UserName</label>
+  <div class="col-sm-10">
+    <input type="text" [(ngModel)]="UserName" class=" form-control" id="staticEmail" value="UserName">
+  </div>
+</div>
+<div class="mb-3 row">
+  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+  <div class="col-sm-10">
+    <input type="email" [(ngModel)]="email" class=" form-control" placeholder="Enter Email">
+  </div>
+</div>
+
+<div class="mb-3 row">
+  <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+  <div class="col-sm-10">
+    <input type="password" [(ngModel)]="Password" class=" form-control" id="inputPassword">
+  </div>
+</div>
+<div class="mb-3 row">
+  <label for="inputPassword" class="col-sm-2 col-form-label">Confirm Password</label>
+  <div class="col-sm-10">
+    <input type="password" [(ngModel)]="ConfirmPassword" class=" form-control" id="inputPassword">
+  </div>
+</div>
+<button type="button" class="btn btn-success" (click)="showForm()">Register</button>

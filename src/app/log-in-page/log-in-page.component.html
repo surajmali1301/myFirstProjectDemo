@@ -1,0 +1,21 @@
+<hr >
+<div class="row g-3 align-items-center">
+  <div class="col-auto">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <label for="inputPassword6" class="col-form-label">Email </label>
+  </div>
+  <div class="col-auto">
+    <input type="password" [(ngModel)]="UserName" id="inputPassword6" class="form-control"
+      aria-describedby="passwordHelpInline">
+  </div>
+</div><br>
+<div class="row g-3 align-items-center">
+  <div class="col-auto">
+    <label for="inputPassword6" class="col-form-label">Password</label>
+  </div>
+  <div class="col-auto">
+    <input type="password" [(ngModel)]="PassWord" id="inputPassword6" class="form-control"
+      aria-describedby="passwordHelpInline">
+  </div>
+</div>
+<button type="button" class="btn btn-outline-primary" (click)="LogIn()">Log In</button>
+<!-- <button type="button" class="btn btn-success" (click)="showForm()">Register</button> -->

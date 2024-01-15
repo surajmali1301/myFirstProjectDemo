@@ -1,0 +1,25 @@
+.Success {
+    color: black;
+    font-size: medium;
+    width: 350px;
+    padding: 20px;
+    background: rgb(254, 151, 7);
+}
+.Error {
+    color: black;
+    font-size: medium;
+    width: 350px;
+    padding: 20px;
+    background: red;
+}
+ 
+.Warning {
+    color: black;
+    font-size: medium;
+    width: 350px;
+    padding: 20px;
+    background: yellow;
+}
+.card-img-top{
+    height: 260px;
+}
